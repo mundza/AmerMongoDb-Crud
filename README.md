@@ -11,7 +11,7 @@ Usage:
 
 Example:
 
- public class TestingAmerMongoDb
+    public class TestingAmerMongoDb
     {
         public readonly IRepository<Testing> _testingRepository;
 
