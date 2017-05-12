@@ -128,6 +128,7 @@ namespace AmerMongoDb_Crud
         {
             try
             {
+                data.LastUpdatedAt = DateTime.UtcNow;
                 var filter = Builders<BsonDocument>.Filter.Eq("_id", data._id);
 
 
